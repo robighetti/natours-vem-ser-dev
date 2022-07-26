@@ -1,0 +1,51 @@
+Arguments: 
+  /home/robighetti/.nvm/versions/node/v14.16.0/bin/node /home/robighetti/.nvm/versions/node/v14.16.0/bin/yarn
+
+PATH: 
+  /home/robighetti/.nvm/versions/node/v14.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/node-sass: ETIMEDOUT
+      at Timeout._onTimeout (/home/robighetti/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:141550:19)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "name": "natours-vem-ser-dev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "compile": "node-sass sass/main.scss css/style.css -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/robighetti/natours-vem-ser-dev.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/robighetti/natours-vem-ser-dev/issues"
+    },
+    "homepage": "https://github.com/robighetti/natours-vem-ser-dev#readme",
+    "devDependencies": {
+      "node-sass": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

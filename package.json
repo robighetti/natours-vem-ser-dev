@@ -1,0 +1,23 @@
+{
+  "name": "natours-vem-ser-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robighetti/natours-vem-ser-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robighetti/natours-vem-ser-dev/issues"
+  },
+  "homepage": "https://github.com/robighetti/natours-vem-ser-dev#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
