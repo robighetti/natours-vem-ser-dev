@@ -1,17 +1,22 @@
-//importação dos abstracts
+//Importação do abstract
 @import "abstract/variables";
 @import "abstract/functions";
 @import "abstract/mixins";
 
-//imoprtação da base
-@import "base/animations";
+//importação do base
 @import "base/base";
+@import "base/animations";
 @import "base/typography";
 @import "base/utilities";
 
-//importação da page
-@import "layouts/header";
-@import "layouts/grid";
+//Importação do pages
+@import "pages/home";
 
-//importação do componente
+//Importação dos componentes
 @import "components/button.scss";
+@import "components/composition.scss";
+@import "components/card";
+
+//Importação do Layout
+@import "layouts/grid";
+@import "layouts/header";
